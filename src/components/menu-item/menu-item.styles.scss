@@ -1,0 +1,64 @@
+.menu-item {
+  min-width: 30%;
+  height: 380px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 7.5px 4.5%;
+  background-position: center;
+  background-size: cover;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.large {
+    width: 100%;
+    height: 450px;
+  }
+
+  &.medium {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    height: 400px;
+  }
+
+  &:first-child, &:last-child {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  &:last-child {
+    height: 525px;
+  }
+
+  .content {
+    height: 90px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 6px;
+      font-size: 22px;
+      color: #4a4a4a;
+      text-transform: uppercase;
+      line-height: 1.4;
+
+      &:first-child {
+        text-transform: lowercase;
+        font-size: 2.5rem;
+        color: #fff;
+      }
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+}
