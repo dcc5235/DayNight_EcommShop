@@ -6,7 +6,7 @@ class Directory extends React.Component {
   constructor() {
     super();
 
-    // populating menu-item sections like a product.json file
+    // populates menu-item sections like a product.json file
     this.state = {
       sections: [
         {
@@ -45,7 +45,6 @@ class Directory extends React.Component {
           id: 6,
           linkUrl: 'shop/serving'
         },
-       
         {
           imageUrl: 'https://images.pexels.com/photos/4495798/pexels-photo-4495798.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
           id: 7,
@@ -77,8 +76,8 @@ class Directory extends React.Component {
     return (
       <div className="directory-menu">
         {
-          this.state.sections.map(({title, subtitle, imageUrl, id, size}) => (
-            <MenuItem key={id} title={title} subtitle={subtitle} imageUrl={imageUrl} size={size} />
+          this.state.sections.map(({id, ...otherSectionProps}) => (
+            <MenuItem key={id} {...otherSectionProps} />
           ))
         }
       </div>
