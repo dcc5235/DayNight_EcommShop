@@ -8,6 +8,9 @@ const Header = () => (
     <Link className='logo-container' to="/">
       <Logo className='logo' />
     </Link>
+    <div className="title">
+      <h1>HomeComforts</h1>
+    </div>
     <div className='options'>
       <Link className='option' to='/shop'>
         SHOP
