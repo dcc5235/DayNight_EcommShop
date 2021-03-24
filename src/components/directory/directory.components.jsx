@@ -11,7 +11,7 @@ class Directory extends React.Component {
       sections: [
         {
           title: 'the joy of springtime',
-          subtitle: 'Fusce ut placerat orci nulla pellentesque dignissim enim →',
+          subtitle: 'Everything you need for an inspiring celebration →',
           imageUrl: 'https://images.pexels.com/photos/6619764/pexels-photo-6619764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
           size: 'large',
           id: 1,
