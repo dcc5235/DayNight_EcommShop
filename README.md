@@ -2,6 +2,10 @@
 
 HTML5 | CSS3 | SASS | JAVASCRIPT | REACT | FIREBASE
 
+## Installations & Technologies
+
+Install firebase: ``` yarn add firebase```
+
 ## Highlights
 
 - Utilizes [Firebase](https://firebase.google.com/) for back-end features (database, server, user-authentication).
