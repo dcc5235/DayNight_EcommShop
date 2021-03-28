@@ -4,7 +4,8 @@ HTML5 | CSS3 | SASS | JAVASCRIPT | REACT | FIREBASE
 
 ## Highlights
 
-- Utilizes [Firebase](https://firebase.google.com/) for user authentication & storage 
+- Utilizes [Firebase](https://firebase.google.com/) for back-end features (database, server, user-authentication).
+  - All of the products data stored in a database, server stores code that determines the most efficient way to request data from the database. When a user navigates to a page on the front-end, the server on the back-end decides how to query the database for that page. It determines the most efficient way to fetch data. 
 
 ## Credits
 
