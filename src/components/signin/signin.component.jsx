@@ -1,8 +1,10 @@
 import React from 'react';
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
+import { signInWithGoogle } from '../../firebase/firebase.utils';
 import './signin.styles.scss';
 
+// Using class-based component because we need to store user info as they type
 class SignIn extends React.Component {
   constructor(props) {
     super(props);
@@ -13,12 +15,14 @@ class SignIn extends React.Component {
     }
   }
 
+  // prevents default submit action from firing and set the values to empty string
   handleSubmit = event => {
     event.preventDefault();
 
     this.setState({email: '', password: ''})
   }
 
+  // pulls value and name off event.target from input element - what does that mean?
   handleChange = event => {
     const { value, name } = event.target;
 
@@ -51,6 +55,11 @@ class SignIn extends React.Component {
           />
 
           <CustomButton type='submit'> Sign In</CustomButton>
+          <CustomButton onClick={signInWithGoogle}> 
+          {' '}
+          Sign in with Google
+          {' '}
+          </CustomButton>
         </form>
       </div>
     )
