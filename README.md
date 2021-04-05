@@ -16,6 +16,4 @@ Install firebase: ``` yarn add firebase```
 ## Credits
 
 - Design Inspiration from eCommerce platforms, including [Crate&Barrel](https://www.crateandbarrel.com/).
-- SVG from ...
-- Icons from ...
 - Photos from [Pexels](https://www.pexels.com/).
