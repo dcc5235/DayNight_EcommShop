@@ -8,6 +8,7 @@ class ShopPage extends React.Component {
     super(props);
 
     this.state = {
+      // collection is equal to an array of items stored in shop.data.js
       collections: SHOP_DATA
     };
   }
