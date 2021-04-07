@@ -1,6 +1,7 @@
 import React from 'react';
 import './form-input.styles.scss';
 
+// destructure and spread into input
 const FormInput = ({ handleChange, label, ...otherProps }) => (
   <div className='group'>
     <input className='form-input' onChange={handleChange} {...otherProps} />
