@@ -12,9 +12,8 @@ Install firebase: ``` yarn add firebase```
   - All of the products data stored in a database, server stores code that determines the most efficient way to request data from the database. When a user navigates to a page on the front-end, the server on the back-end decides how to query the database for that page. It determines the most efficient way to fetch data. 
   - OAuth sign-in with Google. 
   - User-authentication persistence of user sessions.
-
+  
 - Redux for managing large state, sharing data between components, predictable.
-  - 
 
 ## Credits
 
